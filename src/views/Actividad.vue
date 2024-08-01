@@ -15,111 +15,303 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Primeros auxilios y bioseguridad en emergencias',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Desarrollar competencias en la valoración de riesgos, procedimientos de emergencia y aplicación de medidas de bioseguridad para asegurar una respuesta efectiva y segura en situaciones de emergencia.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
+            '¿Cuál es la primera acción que debe realizarse al identificar la escena de un incidente?',
           imagen: require('@/assets/componentes/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Realizar la llamada de emergencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Asegurar la escena del incidente.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Proporcionar cuidado al lesionado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evaluar los riesgos de la escena.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
+            '¿Qué riesgo se produce por la caída de cables eléctricos dentro del escenario de emergencia?',
           imagen: require('@/assets/componentes/pregunta_2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Riesgo químico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Riesgo eléctrico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Riesgo biológico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Amenaza antrópica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué elemento se utiliza para evitar la exposición directa a la sangre y otros fluidos contaminantes?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Tapabocas.', esCorrecta: false },
+            { id: 'b', texto: 'Guantes.', esCorrecta: true },
+            { id: 'c', texto: 'Monogafas.', esCorrecta: false },
+            { id: 'd', texto: 'Bata protectora.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué tipo de recipiente se utiliza para material contaminado con secreciones humanas?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Recipientes metálicos rígidos.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Guardines.', esCorrecta: false },
+            { id: 'c', texto: 'Bolsas de plástico.', esCorrecta: false },
+            { id: 'd', texto: 'Recipientes rojos.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué debe hacer si una persona que presta ayuda debe retirarse de la escena para llamar a emergencias?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Continuar atendiendo al lesionado.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Pedirle que regrese para confirmar que realizó la llamada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Buscar otra persona para que llame.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Esperar a que llegue la ayuda.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es uno de los principios de bioseguridad mencionados en el documento?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evitar el contacto con el paciente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Universalidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Uso exclusivo de equipos estériles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mantener una distancia segura.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué se debe hacer antes de ingresar a un vehículo en un accidente de tránsito?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proporcionar primeros auxilios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Desconectar la batería de los carros involucrados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Llamar a la policía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controlar el tráfico.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué acción se recomienda para controlar un derrame de combustible en la escena de un accidente?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Señalizarlo y cubrirlo con tierra, aserrín o arena.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Llamar a los bomberos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evacuar la escena.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Esperar a los servicios de emergencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué mecanismo de transmisión ocurre cuando el paciente tose, estornuda o habla?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Transmisión por contacto directo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Transmisión por inoculación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
+              texto: 'Transmisión por aerosoles.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Transmisión por gotas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es la finalidad de usar monogafas y tapabocas durante la atención de emergencias?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proteger contra golpes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Proteger las membranas mucosas de ojos, nariz y boca.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Identificar al personal de atención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mejorar la comunicación con el paciente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+        '¡Excelente! Te felicito, has superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},

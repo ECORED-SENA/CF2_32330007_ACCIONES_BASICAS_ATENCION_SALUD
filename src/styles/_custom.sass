@@ -10,6 +10,11 @@
     top: 51%
     right: 30%
 
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right bottom
+    background-image: url(../assets/curso/fondo_tema.png) !important
 
 @keyframes float1
   0%
@@ -18,3 +23,145 @@
   100%
     transform: translateY(0px)
 
+
+
+//colores
+.fondo-color-primario
+  background-color: $color-primario
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-secundario
+  background-color: $color-secundario
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+.c-color-sistema-j
+  color: $color-sistema-j
+.c-color-sistema-l
+  color: $color-sistema-l
+
+//bordes
+.borde-5
+  border-radius: 5px
+.borde-8
+  border-radius: 8px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-20
+  border-radius: 20px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-full
+    &:before
+      background-size: 100%
+      @media screen and (max-width: $bp-max-md)
+        background-size: cover
+  &.f1
+    &:before
+      background: rgb(234,243,253)
+      background: linear-gradient(180deg, rgba(234,243,253,0) 0%, rgba(234,243,253,1) 25%, rgba(248,255,229,1) 75%, rgba(238,250,209,0) 100%)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/5.png)
+  &__contenido
+    position: relative
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    min-width: 50px
+    max-width: 50px
+    min-height: 50px
+    max-height: 50px
+    border: none
+  .pasos-b__header__item__dot
+    min-width: 50px
+    max-width: 50px
+    min-height: 50px
+    max-height: 50px
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      border-color: $color-acento-contenido
+      i
+        display: none
+      span
+        display: block
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      border-color: $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+
+
+//tarjetas
+.tarjeta-per-1
+  background-color: #B1D1F9
+  overflow: hidden
+  border-radius: 10px
+  transition: background-color .3s
+  text-align: center
+  -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.16)
+  -moz-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.16)
+  box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.16)
+  &:hover
+    background-color: #EEFAD1
+  position: relative
+  *
+    position: relative
+  .fig-1
+    position: absolute
+    top: 0
+    max-width: 82px
+    right: 0

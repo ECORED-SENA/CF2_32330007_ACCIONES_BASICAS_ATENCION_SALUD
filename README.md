@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Aseguramiento de la escena según protocolos de seguridad**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_32330007_ACCIONES_BASICAS_ATENCION_SALUD/#/](https://ecored-sena.github.io/CF2_32330007_ACCIONES_BASICAS_ATENCION_SALUD/#/)
 
 #
 
