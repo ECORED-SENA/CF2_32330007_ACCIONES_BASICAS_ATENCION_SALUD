@@ -2,20 +2,20 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido.mb-0
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Llamar a la línea de emergencia
 
     .fondo-personalizado-1.f4
       .fondo-personalizado-1__contenido.pt-5.pb-4
-        p.mb-4 Lo primero que se debe realizar al identificar la escena es #[span.fw-bold.c-color-sistema-j la llamada a la línea de emergencia local], con el objetivo de que el personal entrenado llegue a la escena con los recursos necesarios lo más pronto posible.
+        p.mb-4(data-aos="fade") Lo primero que se debe realizar al identificar la escena es #[span.fw-bold.c-color-sistema-j la llamada a la línea de emergencia local], con el objetivo de que el personal entrenado llegue a la escena con los recursos necesarios lo más pronto posible.
 
         .row.mb-4 
-          .col-lg-5
+          .col-lg-5(data-aos="fade-right")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/3.png",style="max-width: 505px;")
-          .col-lg-7
+          .col-lg-7(data-aos="fade-left")
             .fondo-color-secundario.p-4.h-100.align-content-center.borde-15
               .row.align-items-center 
                 .col-md-auto.text-center
@@ -25,9 +25,9 @@
                 .col 
                   p.mb-0.c-color-sistema-l Si en la escena se encuentran más personas, se debe solicitar ayuda por medio de la llamada a la línea de emergencias, en la cual proporcione información relevante del evento.
         
-        p.mb-0 La manera adecuada para hacer la llamada de emergencia es:
+        p.mb-0(data-aos="fade-up") La manera adecuada para hacer la llamada de emergencia es:
 
-    .fondo-personalizado-1.f2
+    .fondo-personalizado-1.f2(data-aos="flip-up")
       .fondo-personalizado-1__contenido.py-5
         .bg-white.borde-20.p-4
           PasosB.pasos-personalizado-1
@@ -76,15 +76,15 @@
     
     Separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido.mb-0
+    #t_1_1.titulo-segundo.color-acento-contenido.mb-0(data-aos="fade-right")
       h2 1.1 Proporcionar cuidado al lesionado
     
     .fondo-personalizado-1.f5
       .fondo-personalizado-1__contenido.pt-5.pb-4
-        p.mb-4 Cuando se identifique que la escena está segura tanto para el lesionado como para la persona que presta la primera atención, se debe garantizar el acompañamiento al lesionado, hasta que llegue una persona cercana, ya sea familiar o el personal de salud que ha sido asignado a la escena.
+        p.mb-4(data-aos="fade-down") Cuando se identifique que la escena está segura tanto para el lesionado como para la persona que presta la primera atención, se debe garantizar el acompañamiento al lesionado, hasta que llegue una persona cercana, ya sea familiar o el personal de salud que ha sido asignado a la escena.
 
         .row.justify-content-center
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
             .tarjeta-per-1.p-4.p-lg-5.pt-lg-4.h-100
               .text-center
                 .fondo-color-secundario.p-2.borde-5.d-inline-flex.mb-4
@@ -93,7 +93,7 @@
               img.fig-1(src="@/assets/curso/temas/12.png")
               h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 Evaluar la seguridad de la escena
               p.mb-0.pb-1 Asegurarse de que la escena sea segura tanto para el lesionado como para el socorrista.
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-up")
             .tarjeta-per-1.p-4.p-lg-5.pt-lg-4.h-100
               .text-center
                 .fondo-color-secundario.p-2.borde-5.d-inline-flex.mb-4
@@ -102,7 +102,7 @@
               img.fig-1(src="@/assets/curso/temas/12.png")
               h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 Acompañamiento
               p.mb-0.pb-1 Acompañar al lesionado hasta que llegue personal médico o un familiar.
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
             .tarjeta-per-1.p-4.p-lg-5.pt-lg-4.h-100
               .text-center
                 .fondo-color-secundario.p-2.borde-5.d-inline-flex.mb-4
@@ -114,10 +114,10 @@
 
     Separador.pt-1
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.2 Evaluación de riesgos
     
-    p.mb-4 Al evaluar los riesgos en el lugar de la emergencia, se debe tener en cuenta los siguientes:
+    p.mb-4(data-aos="fade") Al evaluar los riesgos en el lugar de la emergencia, se debe tener en cuenta los siguientes:
 
     figure(data-aos="zoom-in-up")
       .video
@@ -126,20 +126,20 @@
     
     Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-out")
       h2 1.3 Aseguramiento específico del área
 
-    p.mb-0 En situaciones de emergencia, el aseguramiento específico del área es una prioridad crucial para proteger a los involucrados y facilitar las labores de rescate. #[b Este proceso varía según el tipo de incidente, requiriendo medidas adaptadas a las circunstancias particulares de cada caso.]
+    p.mb-0(data-aos="fade-left") En situaciones de emergencia, el aseguramiento específico del área es una prioridad crucial para proteger a los involucrados y facilitar las labores de rescate. #[b Este proceso varía según el tipo de incidente, requiriendo medidas adaptadas a las circunstancias particulares de cada caso.]
 
-    .titulo-decorativo.my-4
+    .titulo-decorativo.my-4(data-aos="fade-right")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Accidente de tránsito
     
-    p.mb-4 La gestión de un accidente de tránsito requiere una serie de pasos específicos para asegurar el área y minimizar riesgos adicionales. A continuación, se detallan las medidas fundamentales que deben tomarse para proteger a los involucrados y garantizar la seguridad en la escena:
+    p.mb-4(data-aos="fade-up") La gestión de un accidente de tránsito requiere una serie de pasos específicos para asegurar el área y minimizar riesgos adicionales. A continuación, se detallan las medidas fundamentales que deben tomarse para proteger a los involucrados y garantizar la seguridad en la escena:
 
-    .fondo-personalizado-1.f3
+    .fondo-personalizado-1.f3(data-aos="flip-down")
       .fondo-personalizado-1__contenido
         .row.align-items-center 
           .col-lg-4
@@ -180,7 +180,7 @@
                   h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 04
                   p.mb-0 Si está en un lugar de mayor tránsito de carros, se le informe que debe disminuir la velocidad antes de llegar a la escena, para prevenir otro accidente.
     
-    .titulo-decorativo.my-4
+    .titulo-decorativo.my-4(data-aos="fade")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
@@ -190,7 +190,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/21.png')})`}"
       )
-      .bloque-texto-g__texto.p-4.p-lg-5
+      .bloque-texto-g__texto.p-4.p-lg-5(data-aos="fade-left")
         p.mb-0 Incendios de mayor proporción le corresponden al cuerpo de bomberos de la localidad hacer el control con su maquinaria; se deben extremar las medidas de seguridad con elementos de protección personal.
 
       

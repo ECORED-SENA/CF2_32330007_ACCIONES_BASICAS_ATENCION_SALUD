@@ -4,7 +4,7 @@ export default {
       'Aseguramiento de la escena según protocolos de seguridad',
     descripcionCurso:
       'Este componente formativo ofrece guías para asegurar la escena de un incidente siguiendo protocolos de seguridad. Incluye procedimientos para valorar riesgos, realizar llamadas de emergencia y proporcionar cuidado inicial al lesionado. También cubre principios de bioseguridad, uso de barreras y eliminación de materiales contaminados, garantizando una respuesta efectiva y segura en situaciones de emergencia.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -14,6 +14,26 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-7.svg'),
       },
     ],
   },

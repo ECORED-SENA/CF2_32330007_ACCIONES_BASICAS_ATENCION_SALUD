@@ -25,7 +25,7 @@ export default {
           id: 1,
           texto:
             '¿Cuál es la primera acción que debe realizarse al identificar la escena de un incidente?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.png'),
           barajarRespuestas: false,
           opciones: [
             {
@@ -89,7 +89,7 @@ export default {
           id: 3,
           texto:
             '¿Qué elemento se utiliza para evitar la exposición directa a la sangre y otros fluidos contaminantes?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.png'),
           opciones: [
             { id: 'a', texto: 'Tapabocas.', esCorrecta: false },
             { id: 'b', texto: 'Guantes.', esCorrecta: true },
@@ -104,7 +104,7 @@ export default {
           id: 4,
           texto:
             '¿Qué tipo de recipiente se utiliza para material contaminado con secreciones humanas?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -124,7 +124,7 @@ export default {
           id: 5,
           texto:
             '¿Qué debe hacer si una persona que presta ayuda debe retirarse de la escena para llamar a emergencias?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.png'),
           opciones: [
             {
               id: 'a',
@@ -156,7 +156,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es uno de los principios de bioseguridad mencionados en el documento?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.png'),
           opciones: [
             {
               id: 'a',
@@ -187,7 +187,7 @@ export default {
           id: 7,
           texto:
             '¿Qué se debe hacer antes de ingresar a un vehículo en un accidente de tránsito?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.png'),
           opciones: [
             {
               id: 'a',
@@ -218,7 +218,7 @@ export default {
           id: 8,
           texto:
             '¿Qué acción se recomienda para controlar un derrame de combustible en la escena de un accidente?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.png'),
           opciones: [
             {
               id: 'a',
@@ -249,7 +249,7 @@ export default {
           id: 9,
           texto:
             '¿Qué mecanismo de transmisión ocurre cuando el paciente tose, estornuda o habla?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.png'),
           opciones: [
             {
               id: 'a',
@@ -280,7 +280,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es la finalidad de usar monogafas y tapabocas durante la atención de emergencias?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.png'),
           opciones: [
             {
               id: 'a',
