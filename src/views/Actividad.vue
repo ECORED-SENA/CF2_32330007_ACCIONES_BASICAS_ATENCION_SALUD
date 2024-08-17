@@ -223,12 +223,12 @@ export default {
             {
               id: 'a',
               texto: 'Señalizarlo y cubrirlo con tierra, aserrín o arena.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Llamar a los bomberos.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
