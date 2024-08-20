@@ -156,12 +156,20 @@
                   h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 01
                   p.mb-0 Antes de ingresar al vehículo, asegure la escena desconectando la batería de los carros involucrados en el accidente.
               .px-4.py-4.px-lg-0.h-100
+                .tarjeta-per-1.bg-white.p-4.pb-5.h-100
+                  .text-center
+                    .fondo-color-secundario.p-2.borde-12.d-inline-flex.mb-4
+                      figure
+                        img(src="@/assets/curso/temas/16.svg",style="max-width: 83px;")
+                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 02
+                  p.mb-0 Verifique si existe derrame de combustible, si es así, debe señalizarlo y cubrirlo con tierra, aserrín o arena.
+              .px-4.py-4.px-lg-0.h-100
                 .tarjeta-per-1.bg-white.h-100.p-4.pb-5
                   .text-center
                     .fondo-color-secundario.p-2.borde-12.d-inline-flex.mb-4
                       figure
                         img(src="@/assets/curso/temas/17.svg",style="max-width: 83px;")
-                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 02
+                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 03
                   p.mb-0 La señalización y la iluminación en la escena son importantes para evitar que ocurra otro accidente.
               .px-4.py-4.px-lg-0.h-100
                 .tarjeta-per-1.bg-white.h-100.p-4.pb-5
@@ -169,7 +177,7 @@
                     .fondo-color-secundario.p-2.borde-12.d-inline-flex.mb-4
                       figure
                         img(src="@/assets/curso/temas/18.svg",style="max-width: 83px;")
-                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 03
+                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 04
                   p.mb-0 Controlar el flujo en el exterior del equipo de carreteras, permanecer a distancia prudente mientras se descarga el agente extintor.
               .px-4.py-4.px-lg-0.h-100
                 .tarjeta-per-1.bg-white.h-100.p-4.pb-5
@@ -177,7 +185,7 @@
                     .fondo-color-secundario.p-2.borde-12.d-inline-flex.mb-4
                       figure
                         img(src="@/assets/curso/temas/19.svg",style="max-width: 83px;")
-                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 04
+                  h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 05
                   p.mb-0 Si está en un lugar de mayor tránsito de carros, se le informe que debe disminuir la velocidad antes de llegar a la escena, para prevenir otro accidente.
     
     .titulo-decorativo.my-4(data-aos="fade")
