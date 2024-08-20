@@ -160,7 +160,7 @@
                   .text-center
                     .fondo-color-secundario.p-2.borde-12.d-inline-flex.mb-4
                       figure
-                        img(src="@/assets/curso/temas/16.svg",style="max-width: 83px;")
+                        img(src="@/assets/curso/temas/52.svg",style="max-width: 83px;")
                   h4.mb-4.fondo-color-acento-contenido.d-inline-flex.px-2.py-1 02
                   p.mb-0 Verifique si existe derrame de combustible, si es así, debe señalizarlo y cubrirlo con tierra, aserrín o arena.
               .px-4.py-4.px-lg-0.h-100
