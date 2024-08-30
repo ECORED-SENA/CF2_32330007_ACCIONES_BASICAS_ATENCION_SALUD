@@ -49,9 +49,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
@@ -81,9 +80,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
@@ -96,9 +94,8 @@ export default {
             { id: 'c', texto: 'Monogafas.', esCorrecta: false },
             { id: 'd', texto: 'Bata protectora.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
@@ -116,9 +113,8 @@ export default {
             { id: 'c', texto: 'Bolsas de plástico.', esCorrecta: false },
             { id: 'd', texto: 'Recipientes rojos.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
@@ -148,9 +144,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
@@ -179,9 +174,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
@@ -210,9 +204,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
@@ -241,9 +234,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
@@ -272,9 +264,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
@@ -303,15 +294,13 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado:
-        '¡Excelente! Te felicito, has superado la actividad.',
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
-        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},
